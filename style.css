@@ -60,7 +60,7 @@ ul {
     padding: 0;
     border:0;
     display: flex;
-    gap: 16px;
+    gap: 20px;
     align-self: center;
 }
 
@@ -86,10 +86,34 @@ button {
 }
 
 /* INFO */
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 200px 100px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
 .info-title {
     color: #1f2937;
     font-weight: bolder;
     font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .info-image {
