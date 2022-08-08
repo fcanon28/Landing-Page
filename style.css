@@ -132,6 +132,9 @@ button {
 /* QUOTE */
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
 }
 
 .quote-text {
@@ -139,11 +142,13 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    align-self: auto;
 }
 
 .author {
     font-weight: bold;
     font-size: 20px;
+    align-self: flex-end;
 }
 
 .contacts {
