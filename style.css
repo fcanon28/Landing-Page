@@ -1,15 +1,43 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* HEADER */
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 12px 150px 100px;
+    gap: 70px;
+}
+
+.h-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.h-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 80px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 700;
+    align-self: center;
 }
 
 .title {
@@ -31,6 +59,9 @@ a {
 ul {
     padding: 0;
     border:0;
+    display: flex;
+    gap: 16px;
+    align-self: center;
 }
 
 button {
@@ -44,13 +75,14 @@ button {
 }
 
 .header-image {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     background-color: gray;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 0 auto;
 }
 
 /* INFO */
@@ -118,6 +150,6 @@ button {
 
 /* will put borders so I can visually see the divs */
 /*div {
-    border: 1px solid white;
+    border: 1px solid yellow;
 }
 
