@@ -1,0 +1,4 @@
+/* will put borders so I can visually see the divs */
+div {
+    border: 1px solid black;
+}
