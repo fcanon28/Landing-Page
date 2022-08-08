@@ -1,4 +1,56 @@
-/* will put borders so I can visually see the divs */
-div {
-    border: 1px solid black;
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.description, .header-links {
+    font-size: 18px;
+    list-style: none;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: rgb(36,160,237);
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 4px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(36,160,237);
+}
+
+.header-image {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    text-align: center;
+}
+
+
+
+
+
+/* will put borders so I can visually see the divs */
+/*div {
+    border: 1px solid black;
+}*/
+
