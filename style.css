@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 0;
+    margin: 0;
 }
 /* HEADER */
 .header {
@@ -82,7 +84,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
 }
 
 /* INFO */
